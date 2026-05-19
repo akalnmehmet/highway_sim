@@ -13,8 +13,6 @@ models/ddqn_ep*.mat
 # Keep the final model in version control
 !models/ddqn_ep4400.mat
 
-# ── Generated results ─────────────────────────────────────────────────────────
-results/
 
 # ── Third-party library ───────────────────────────────────────────────────────
 # Install separately: https://github.com/pipeacosta/traci4matlab
