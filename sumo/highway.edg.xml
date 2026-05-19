@@ -1,0 +1,4 @@
+<edges>
+    <edge id="highway_edge" from="node_start" to="node_end" 
+          numLanes="3" speed="35.0" width="3.6"/>
+</edges>

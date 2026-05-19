@@ -1,0 +1,36 @@
+# ── MATLAB ────────────────────────────────────────────────────────────────────
+*.asv                   # auto-save backups
+*.m~                    # editor backups
+*.mex*                  # compiled MEX binaries
+*.mexw64
+slprj/                  # Simulink build cache
+codegen/                # MATLAB Coder output
+
+# ── Trained models ────────────────────────────────────────────────────────────
+# Intermediate checkpoints – large and re-generatable from training
+models/ddqn_ep*.mat
+
+# Keep the final model in version control
+!models/ddqn_ep4400.mat
+
+# ── Generated results ─────────────────────────────────────────────────────────
+results/
+
+# ── Third-party library ───────────────────────────────────────────────────────
+# Install separately: https://github.com/pipeacosta/traci4matlab
+lib/
+
+# ── Leftover folder from project reorganization ───────────────────────────────
+pipeacosta-traci4matlab-245ddc7/
+
+# ── SUMO runtime output ───────────────────────────────────────────────────────
+*.log
+tripinfo*.xml
+fcd*.xml
+
+# ── OS & editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
